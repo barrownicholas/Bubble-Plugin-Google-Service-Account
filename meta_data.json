@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "small business",
+        "1": "data (things)",
+        "2": "technical",
+        "3": "social network"
+    },
+    "demo_page": "https://google-service-account-example.bubbleapps.io/",
+    "description": "This plugin allows you to authenticate a Google Service Account in a simple, two-step workflow. You can use an API-returned Bearer Token to authenticate your service account requests.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1606884166481x631475032184913700/glogo.jpg",
+    "license": "open_source",
+    "link": "https://elegislate.gitbook.io/bubble-plugins/",
+    "name": "Google Service Account",
+    "plugin_instructions": "Full instructions are available here: https://elegislate.gitbook.io/bubble-plugins/\n\nQuickstart Guide: \n1.) Generate a signed JWT via the \"Create Assertion\" action in a workflow using your credentials.\n2.) Use the assertion in a \"Request Bearer Token\" API Action in a workflow.\n\nNeed an example? \nhttps://bubble.io/page?name=index&id=google-service-account-example&tab=tabs-1\n\nUses:\n*This allows you to make authorized API calls to any of Google's API's. Just place a header in your API call that is called \"Authorization\" with the value \"Bearer returnedBearerTokenHere\". \n\nNeed Help? Send me an email at me@nicholasrbarrow.com."
+}

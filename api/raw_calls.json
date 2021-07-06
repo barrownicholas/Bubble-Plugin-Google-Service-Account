@@ -1,0 +1,32 @@
+{
+    "calls": {
+        "AAb": {
+            "body": "",
+            "body_type": "json",
+            "initialized": true,
+            "method": "post",
+            "name": "Request Bearer Token",
+            "params": {
+                "AAn": {
+                    "key": "grant_type",
+                    "private": true,
+                    "value": "urn:ietf:params:oauth:grant-type:jwt-bearer",
+                    "visibility": "hidden"
+                },
+                "AAo": {
+                    "doc": "Result of a 'Create JSON' action in workflow.",
+                    "key": "assertion",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1605833704975x195806677045870600.plugin_api.AAb",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAb\":{\"caption\":\"Access Token Request\",\"fields\":{\"_p_access_token\":{\"ret_value\":\"text\",\"caption\":\"access_token\",\"sample_value\":\"ya29.a0AfH6SMD0VwH-GcgjVnu2wLNA7mDR4zF75q4bURCRnRnsMNQlisHkIFNKt9gv67nVg5KLF991d6De0Vl_Usm3BMuyn5H9I_6x794bzxPR44oHWUetLSFHzngasfQ3KXiID3GCHfIgpxtgINca_MZJ5Oi8twZzUUtULwnpVPSPfCuGEzvilKJcKuzKXlYPirBV5qlOK1yRjrzqBh88_hMxHniKAQ\",\"path\":[\"access_token\"]},\"_p_expires_in\":{\"ret_value\":\"number\",\"caption\":\"expires_in\",\"sample_value\":3599,\"path\":[\"expires_in\"]},\"_p_token_type\":{\"ret_value\":\"text\",\"caption\":\"token_type\",\"sample_value\":\"Bearer\",\"path\":[\"token_type\"]}}}}",
+            "url": "https://oauth2.googleapis.com/token"
+        }
+    },
+    "human": "Google API"
+}

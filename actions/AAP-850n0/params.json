@@ -1,0 +1,52 @@
+{
+    "category": "data (things)",
+    "display": "Create Assertion",
+    "fields": {
+        "ABC": {
+            "caption": "Service Account Email",
+            "doc": "Enter the email address of the service account.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "service_account_email",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "Scope",
+            "doc": "Enter the desired scope. You may enter a space-delimited list of scopes.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "scope",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "Email to Impersonate",
+            "doc": "Enter an email address to impersonate (usually a super-admin on the domain).",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "email_to_impersonate",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABF": {
+            "caption": "key",
+            "doc": "Enter the entirety of the .PEM key. See the plugin page for support.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "key",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAe": {
+            "caption": "Assertion",
+            "name": "assertion",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
